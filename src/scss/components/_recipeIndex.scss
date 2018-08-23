@@ -2,8 +2,9 @@
   background-color: $primary;
   padding: 5%;
   margin-top: 20px;
-  border-radius: 12px;
-  width: 75%;
+
+  // border-radius: 12px;
+  // width: 75%;
 }
 .search-form{
   padding: 1rem;
@@ -26,4 +27,22 @@
   border-radius: 20px;
   margin: auto;
 
+}
+
+.title-search {
+font-size: 4rem;
+font-family: $font-secondary;
+color: white;
+text-align: center;
+}
+
+.subtitle-search {
+  font-size: 2rem;
+  font-family: $font-secondary;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  // background-image: url(https://images.pexels.com/photos/616404/pexels-photo-616404.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }

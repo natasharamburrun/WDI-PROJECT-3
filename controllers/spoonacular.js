@@ -26,26 +26,6 @@ function getRecipesByComplexSearch(req, res, next) {
     .catch(next);
 }
 
-// index route function
-function getRecipesByIngredients(req, res, next) {
-  const userInput = req.query.ingredients;
-
-  rp({
-    method: 'GET',
-    url: `${spoonacular}/recipes/findByIngredients`,
-    qs: {
-      number: 15,
-      ranking: 2,
-      fillIngredients: true,
-      ingredients: userInput
-    },
-    headers: { 'x-mashape-key': spoonKey },
-    json: true
-  })
-    .then(response => res.json(response))
-    .catch(next);
-}
-
 // show route function
 function getRecipeById(req, res, next) {
   rp({
@@ -92,7 +72,6 @@ function autocomplete(req, res, next) {
 
 module.exports= {
   getRecipesByComplexSearch,
-  getRecipesByIngredients,
   getRecipeById,
   autocomplete
 };

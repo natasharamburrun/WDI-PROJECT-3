@@ -1,5 +1,5 @@
 function Upload(filepickerProvider) {
-  filepickerProvider.setKey('AlGDFh9JwRU2P3hxyPBuKz');
+  filepickerProvider.setKey('AVG2Ji6nNTN2YLLIdg09Mz');
 }
 
 export default Upload;

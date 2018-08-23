@@ -12,7 +12,7 @@ router.route('/recipes/:id')
 
 router.put('/users/:id/favourites', secureRoute, Users.createFavourite);
 router.put('/users/:id/favourites/delete', secureRoute, Users.deleteFavourite);
-//deletefavouriterecipe
+
 
 router.get('/autocomplete', spoonacular.autocomplete);
 

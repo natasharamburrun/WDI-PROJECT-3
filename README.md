@@ -24,3 +24,11 @@
  Challenges -
  the API used has some challenges firstly the documentation and user experience in developing with the API was not simple, and instructions were not easy to follow.  
  The API data has no consistency as we found some random non-related pictures when searching.
+
+<p align="center"><img src="src/images/homepage.png" "width=700"></p>
+
+<p align="center"><img src="src/images/profilepage.gif" "width=700"></p>
+
+<p align="center"><img src="src/images/search.gif" "width=700"></p>
+
+<p align="center"><img src="src/images/recipepage.gif" "width=700"></p>
