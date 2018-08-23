@@ -3,7 +3,7 @@ const { spoonKey } = require('../config/environment');
 const spoonacular ='https://spoonacular-recipe-food-nutrition-v1.p.mashape.com';
 const Comment = require('../models/comment');
 
-
+// index route function
 function getRecipesByComplexSearch(req, res, next) {
   const { diet } = req.query;
   rp({
