@@ -63,7 +63,7 @@ The app is fully RESTful and the user can register and login with authentication
 
  #### Future development
 
- - A separate index page with all recipes
- - complete the rating system by including a total star rating on the recipe page calculating algorithm of average star rating
+ - A separate index page with all recipes.
+ - complete the rating system by including a total star rating on the recipe page calculating algorithm of average star rating.
  - Be able to view other members profiles to see what recipes they have favourite.
- - Be able to load pictures of the dish they replicated from the recipe provided by the API
+ - Be able to load pictures of the dish they replicated from the recipe provided by the API.
