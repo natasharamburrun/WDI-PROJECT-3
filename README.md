@@ -27,7 +27,7 @@ We successfully planned the project using the project management tool Trello. Th
 For the build process we used the food, recipe and nutrition API Spoonacular. Using this API allowed us to search by ingredients and list all the relevant recipes. We also implemented a functionality where we could filter by the diet requirement and included an autocomplete functionality where a list of choices is populated for the user to select from.
 
 <strong>Search Page</strong>: The main feature of this project is for the user to search by ingredients rather then recipes, therefore we decided only have an index of ingredients input in the search bar.
-<p align="center"><img src="src/images/search.gif" "width=700"></p>
+<p align="center"><img src="src/images/searchpage.gif" "width=700"></p>
 
 CODE:
 

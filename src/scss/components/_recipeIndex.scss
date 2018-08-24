@@ -1,5 +1,5 @@
 .search-input{
-  background-color: $primary;
+  background-color: $secondary;
   padding: 5%;
   margin-top: 20px;
 
@@ -12,14 +12,18 @@
 .ingredients{
   margin: 10px;
 }
-.ingredient{
-  background-color: $secondary;
-  width: 10%;
-  padding: 1%;
+// .ingredient{
+//   background-color: $primary;
+//   width: 10%;
+//   padding: 1%;
+//   color: white;
+//   border-radius: 12px;
+//   text-align: center;
+//   margin: auto;
+// }
+
+li {
   color: white;
-  border-radius: 12px;
-  text-align: center;
-  margin: auto;
 }
 
 .bulma-card{

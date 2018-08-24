@@ -1,6 +1,6 @@
 //header for profile page - user info
 .hero-body {
-  background-color: #57D09B;
+  background-color: $tertiary;
   font-family: 'Leckerli One', cursive;
   font-size: 16px;
 }
@@ -18,7 +18,7 @@
 }
 //style for the profile pic although not responsive
 .media-content-image {
-  padding-left: 46%;
+  padding-left: 45.5%;
   // width: 130px;
   // padding-left: 565px;
 }
