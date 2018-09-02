@@ -4,6 +4,7 @@
   padding-right: 20px;
   padding-top: 50px;
   font-family: $font-primary;
+  margin:0 auto;
 }
 
 // comment box
@@ -25,4 +26,11 @@
 
 .instructions {
   margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 769px){
+.recipe-show {
+    min-width: 600px;
+  }
 }

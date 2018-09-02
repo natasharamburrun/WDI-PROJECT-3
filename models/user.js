@@ -11,7 +11,6 @@ const userSchema = new mongoose.Schema({
   image: { type: String, default: 'https://www.mycookmaster.com/skin/frontend/rwd/default/new_service/defaultService.png'},
   bio: { type: String, default: 'Change your bio!' },
   favourites: []
-
 });
 
 userSchema.set('toJSON', {

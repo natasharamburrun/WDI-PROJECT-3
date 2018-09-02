@@ -26,7 +26,7 @@
   <article class="media-recipesFav">
     <h4 class="title">Favourite Recipes</h4>
     <div class="columns is-multiline">
-      <div class="column column is-one-quarter-desktop" ng-repeat="favourite in user.favourites">
+      <div class="column is-one-quarter-desktop is-half-tablet is-mobile" ng-repeat="favourite in user.favourites">
           <a ui-sref="recipesShow({ id: favourite.id })">
             <div class="card">
               <div class="card-image is-square">
@@ -48,7 +48,6 @@
       </div>
   </article>
 </section>
-
 <!-- modal to make sure user wants to delete their profile -->
 <div class="modal" ng-class="{ 'is-active': modalOpen }">
   <div class="modal-background"></div>

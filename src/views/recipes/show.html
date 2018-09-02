@@ -1,6 +1,6 @@
 <section class="recipe-show">
-  <div class="columns is-mobile is-multiline">
-    <div class="column is-half-desktop is-half-mobile recipe-image">
+  <div class="columns is-multiline">
+    <div class="column is-half-desktop is-half-tablet is-mobile">
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
@@ -9,8 +9,7 @@
         </div>
       </div>
     </div>
-
-    <div class="column is-half-desktop is-half-mobile recipe-info">
+    <div class="column is-half-desktop is-half-tablet is-mobile">
       <div class="card-content">
         <div class="media">
           <div class="media-content">
@@ -36,24 +35,20 @@
         </div>
       </div>
 
-
-    <div class="columns">
-      <div class="column is-half-desktop is-mobile recipe-instructions">
+      <div class="column is-half-desktop is-half-tablet is-mobile">
+        <hr />
         <div class="media-content">
           <h1 class="title is-4">Instructions</h1>
-          <hr />
           <p class="subtitle is-6 instructions" ng-bind-html="recipe.instructions"></p>
         </div>
       </div>
-
-
-      <div class="column is-half-desktop is-mobile recipe-comments">
+      <div class="column is-half-desktop is-half-tablet is-mobile">
+        <hr />
         <h4 class="title is-4">Comments</h4>
         <article class="media" ng-repeat="comment in recipe.comments">
           <figure class="media-left">
             <p class="image is-64x64">
               <img src="{{ comment.author.image }}" alt="{{ comment.author.username }}">
-
             </p>
           </figure>
           <div class="media-content">
@@ -68,7 +63,6 @@
           </div>
         </article>
 
-        <hr />
         <form class="comment-field" ng-submit="createComment()" ng-if="isAuthenticated()">
           <div class="field">
             <label class="label">Comment</label>
@@ -95,6 +89,4 @@
         </form>
       </div>
     </div>
-  </div>
-
 </section>
